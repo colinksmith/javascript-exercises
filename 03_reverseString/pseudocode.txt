@@ -1,0 +1,9 @@
+take string
+separate string into individual characters with loop
+    take length of string
+    loop length of string to slice original string
+    pair first slice with array 1
+reorder strings with array 
+    take length of string and assign array 1 to length of string
+        then array 2 to length of string -1
+combine strings

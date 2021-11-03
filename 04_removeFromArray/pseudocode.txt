@@ -1,0 +1,3 @@
+user inputs values
+remove elements
+    splice elements
