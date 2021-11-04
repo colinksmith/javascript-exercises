@@ -1,0 +1,5 @@
+user inputs two integers 
+    sanitize input to positive integer only
+    sort integers low -> high
+    loop integers from low to high
+        sum integers included
