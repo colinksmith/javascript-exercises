@@ -2,7 +2,10 @@ const sumAll = function(int1, int2) {
     let intLow = 0
     let intHigh = 0
     let x = 0
-    if (typeof int1 !== 'number' && int2 !== 'number') {
+    if (typeof int1 !== 'number') {
+        return "ERROR"
+    }
+    if (typeof int2 !== 'number'){
         return "ERROR"
     }
     if (int1 < 0 || int2 < 0) {
@@ -20,7 +23,7 @@ const sumAll = function(int1, int2) {
     }
 return x
 };
-
 console.log(sumAll(1, 4))
+console.log(sumAll(1, "4"))
 // Do not edit below this line
 module.exports = sumAll;
